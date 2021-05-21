@@ -1,0 +1,470 @@
+nav ul li {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: inherit;
+}
+
+
+@ media (min-width: 768px)
+.navbar-toggler {
+  display:none
+}
+
+
+
+body {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #f8f9fa
+
+
+
+}
+
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: inherit;
+  padding-top: 8px;
+}
+
+h3 h4 {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color:inherit;
+}
+
+
+
+
+.btn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+
+  color: balck;
+}
+
+
+.btn-primary {
+  background-color: #3d60f4;
+  border-color: #3d60f4;
+  text-transform: uppercase;
+}
+
+
+
+
+.btn-common {
+  background-color: #3d60f4;
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.btn-common:hover {
+  color: #fff;
+  background-color: #222;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.btn-border {
+  color: #3d60f4;
+  background-color: transparent;
+  border: 1px solid #3d60f4;
+  border-radius: 30px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+.btn-border:hover {
+  color: black;
+  border-color: #3d60f4;
+  background-color: #3d60f4;
+}
+
+.btn-border:focus {
+  color: #fff;
+  border-color: #3d60f4;
+  background-color: #3d60f4;
+}
+
+.btn-lg {
+  padding: 14px 33px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.btn-rm {
+  padding: 7px 18px;
+  text-transform: capitalize;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+
+
+#hero-area .contents {
+  padding: 50px 0px 50px;
+}
+
+#hero-area .contents .head-title {
+  color:black;
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+
+.btn-outline-success {
+  color: #3d60f4;
+  border-color: #3d60f4;
+
+}
+h3 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30%;
+  font-family:'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+h4 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30%;
+  font-family:'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+h5 {
+  display: inline-block;
+  text-align: center;
+  margin-top: 30%;
+  font-family:'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+
+
+
+h2 {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+padding-top: 8px;
+
+}
+
+
+
+
+
+@media (max-width: 575.98px) {
+	nav ul li {display: block ! important;}
+
+ nav ul {padding-left: 0px !important;}
+nav ul li { display: block !important; }
+col-sm-6 { display: block !important; }
+
+}
+
+
+
+.col-sm-6 {
+  margin-top: 30px;
+  padding-right: 0px;
+
+}
+
+
+
+
+.card {
+  position:sticky;
+  background-color: white;
+  display:block;
+  border: none;
+
+}
+
+
+.card-body {
+  text-align: center;
+  flex: auto;
+  padding:24px;
+  display: block;
+
+}
+
+
+.row {
+  display:inline-table;
+  margin-right: 0px ! important;
+  padding-block: 8px;
+}
+
+
+
+
+.fa-users {
+  font-family: "font awesome 5 free";
+  color: #5693FF;
+  font-size: 72px;
+  opacity: 0.8
+  position:relative;
+  text-align:center;
+
+}
+
+.fa-heart {
+  font-family: "font awesome 5 free";
+  color: red;
+  font-size: 72px;
+  opacity: 0.8;
+  position:relative;
+  text-align: center;
+}
+
+
+.fa-hand-pointer {
+font-family: "font awesome 5 free";
+color:blue;
+font-size: 72px;
+opacity:0.8;
+text-align:center;
+position: relative;
+
+
+}
+
+
+.fa-calendar {
+  font-family: "font awesome 5 free";
+  color:#86FF84;
+  font-size: 72px;
+  opacity:0.8;
+  text-align:center;
+  position: relative;
+
+}
+
+
+
+
+
+
+
+.container-fluid {
+  width: 100%
+  margin-right:auto;
+  margin-left:auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: inline-block;
+}
+
+
+.col-sm-6 {
+display: inline-block;
+text-align: center;
+}
+
+
+p {
+text-align: center;
+}
+
+
+.copyright {
+  background: #f8f9fa
+  padding: 15px;
+}
+
+.container {
+  width:100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.copyright p {
+    line-height: 60px;
+    color: black;
+    text-align: left;
+    margin: 0;
+}
+
+
+p.float-right {
+  text-align: left;
+}
+
+
+
+
+.social-icon a {
+  color: #666;
+  background: #fff;
+  width: 32px;
+  height: 32px;
+  line-height: 34px;
+  display: inline;
+
+  border-radius: 100%;
+  font-size: 16px;
+  margin: 15px 6px 12px 4px;
+}
+
+.f0e1, .f39e, .f16d, .f099 {
+  font-family: "font awesome 5 free";
+  display: inline-block;
+  font-style: normal;
+  text-rendering: auto;
+  line-height: 1;
+  padding: 15px;
+
+
+}
+
+
+
+.copyright .social-icon{
+  padding: 13px;
+}
+
+
+
+
+.copyright p {
+  line-height: 60px;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+.row .col-sm {
+  display: inline;
+  font-size: medium;
+  text-align: center;
+
+
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.social-icon.text-center {
+  display: inline;
+
+}
+
+
+.container .row .col-sm  a {
+  display: inline-block;
+
+}
+
+
+
+footer {
+  padding-top: 38px;
+  background-color: cornsilk;
+  margin-top: 34px;
+
+}
+
+
+
+.navbar-light .navbar-brand {
+  color:#4334E0;
+  font-family:Newsreader;
+  font-size: 32px;
+
+}
+
+footer, .row {
+  text-align: center;
+}
+
+
+footer, a {
+  text-decoration: none;
+}
+
+
+
+.fab, .far {
+  font-weight: 400;
+  background-color: cornsilk;
+}
+
+
+.social-icon a{
+  background-color: cornsilk;
+  display: inline;
+  font-size: 23px;
+  width: 32px;
+  height: 32px;
+  color: black;
+  margin: 15px 6px 14px 4px;
+}
+
+
+
+footer, .div , p {
+  margin-top: 16px;
+}
+
+
+h1 {
+  color:#4334E0;
+  font-family:Newsreader;
+  font-size: 32px;
+}
